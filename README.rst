@@ -2,13 +2,13 @@
 How to Develope
 ===============
 
-.. image:: https://travis-ci.org/siongui/master-wangxing.png?branch=master
-    :target: https://travis-ci.org/siongui/master-wangxing
+.. image:: https://github.com/siongui/master-wangxing/workflows/Pelican%20site%20CI/badge.svg
+    :target: https://github.com/siongui/master-wangxing/blob/master/.github/workflows/pelican.yml
 
 
 Development Tool: Pelican_ (static site generator written in Python)
 
-Development Environment: `Ubuntu 17.04`_
+Development Environment: `Ubuntu 22.04`_
 
 
 First-time Setup
@@ -61,12 +61,6 @@ First-time Setup
      $ make scss
 
 
-Auto-deploy by `Travis CI`_
----------------------------
-
-See reference [1]_.
-
-
 Daily Development
 -----------------
 
@@ -74,10 +68,8 @@ Daily Development
 
     # start edit and develope
     $ cd ~/dev/YOUR_REPO/
-    # If something changes, re-generate the website:
-    $ make html
-    # start dev server
-    $ make serve
+    # re-generate the website and start dev server
+    $ make
     # open your browser and preview the website at http://localhost:8000/
 
 
@@ -91,16 +83,13 @@ Please see UNLICENSE_.
 References
 ----------
 
-.. [1] | `Deploy Website by Pelican, Travis CI, and GitHub Pages <https://siongui.github.io/2016/01/05/deploy-website-by-pelican-travis-ci-github-pages/>`_
-       | `GitHub Pages Deployment - Travis CI <https://docs.travis-ci.com/user/deployment/pages/>`_
-
-.. [2] | JINJA_FILTERS in `Settings — Pelican documentation <http://docs.getpelican.com/en/latest/settings.html>`_
+.. [1] | JINJA_FILTERS in `Settings — Pelican documentation <http://docs.getpelican.com/en/latest/settings.html>`_
        | `Jinja custom filters documentation <http://jinja.pocoo.org/docs/dev/api/#custom-filters>`_
 
-.. [3] `东华禅寺—万行法师官网 <http://www.donghuasi.org/>`_
+.. [2] `东华禅寺—万行法师官网 <http://www.donghuasi.org/>`_
 
 .. _Pelican: http://blog.getpelican.com/
-.. _Ubuntu 17.04: http://releases.ubuntu.com/17.04/
+.. _Ubuntu 22.04: https://releases.ubuntu.com/22.04/
 .. _UNLICENSE: http://unlicense.org/
 .. _git: https://git-scm.com/
 .. _pip: https://pypi.python.org/pypi/pip
