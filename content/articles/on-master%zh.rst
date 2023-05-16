@@ -89,6 +89,12 @@
 
 不了解命運的人，才會想改變命運；一旦了解了命運，也就不會再想改變啦！
 
+.. image:: http://mmsns.qpic.cn/mmsns/ISgdsoJic6YQkIiabUIsUicbJjNAsw85EzIP5f75IlZlPmRlSdg2BYQ9A/0
+   :align: center
+   :alt: 摘自萬行上師著作《萬行上師閉關紀實》
+
+摘自萬行上師著作《萬行上師閉關紀實》
+
 ----
 
 轉錄來源：
